@@ -1,0 +1,59 @@
+<DOCTYPE! html>
+  <html>
+    <h1 id="title">freeCodeCamp Survey Form</h1> <p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form" name="survey-form">
+<label id="name-label">Name</label>
+<input 
+  id="name" 
+  name="name"
+  type="text"  
+  placeholder="Enter your Name here"
+  required="true"></input>
+
+<label id="email-label">Email</label>
+<input 
+  id="email" 
+  name="email" 
+  type="email"
+  placeholder="Enter your Email here"
+  required="true"></input>
+
+<label id="number-label">Age</label>
+<input 
+  id="number" 
+  name="age" 
+  type="number" 
+  min="13" 
+  max="120"
+  placeholder= "Age"></input>
+
+<label id="Question1">How much do you like me?</label>
+<select id="dropdown"> <dropdown > 
+  <option>Please select</option>
+  <option>a little bit</option>
+  <option>a lot</option>
+  <option>too much</option>
+  <option>Way too much</option>
+  <option>Way too too much</option>
+</select>
+
+<label id="Question1">Which do you like more? <input  for="Question1" type="radio" name="radio" value="1">My butt</input>
+<input type="radio" value="1" name="radio">My butthole</input></label>
+
+
+<div>
+<label id="Question2">What do you like about my body?</label>
+<input value= "1" type="checkbox">My Butt</input>
+<input value= "1" type="checkbox">My Bubs</input>
+<input value= "1" type="checkbox">My Hair</input>
+<input value= "1" type="checkbox">My Weiner</input>
+<input value= "1" type="checkbox">My Butthole</input></div>
+
+<label id="Question3">Anything else you would like to say?</label>
+<textarea placeholder= "This is a place for you to write how much you love me etc.."></textarea>
+
+<input type="submit" id="submit"></input>
+
+<link rel="stylesheet" href="styles.css">
+</form>
+  </html>
